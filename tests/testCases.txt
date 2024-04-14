@@ -1,0 +1,18 @@
+Login-signup authentication with create and select database.
+
+create table student(id int, name varchar(50), phone varchar(20))
+select * from student
+insert into student values(1,"Ashish","7828826871");
+select * from student
+exit
+
+#Transaction
+start transaction
+insert into student values(2,"Shreya","7828826873");
+insert into student values(3,"Sumit","7828826894");
+update student set name="Ash" where id=1
+select * from student
+rollback
+insert into student values(4,"Suchika","7828826899");
+select * from student
+commit
