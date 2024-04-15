@@ -264,7 +264,7 @@ Follow the on-screen instructions to perform database operations such as creatin
     - To login through a new user, we have to choose option 1 and then enter the credentials with correct captcha.   
     ![](./screenshots//Testcase-1/Login.png)
 
-    - Create a database first. Before that, I have tried to select the database which shows the error that the database doesn’t exist.
+    - Create a database first. Before that, I have tried to select the database which shows the error that the database doesn’t exist.   
     ![](./screenshots/Testcase-1/CreateDatabase.png)
 
     - Select the database before performing queries.  
