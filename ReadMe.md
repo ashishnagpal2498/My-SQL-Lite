@@ -66,7 +66,7 @@ This project was part of my **_Data Warehouse, Analytics and Management_** assig
 
 ### Status achieved ?
 
-I was successfully able to achieve all the requirements of the assignment and secured ``100%``. Moreover, I created database level operations - `Select Database` and `Show Tables` as well as implemented the code such that it can be extended for future scope.
+I was successfully able to achieve all the requirements of the assignment and secured ``100%``. Moreover, I created database level operations - `Select Database` and `Show Tables` as well as implemented the code such that it can be extended for future scope. I have also written java docs for all the files to increase code readability.
 
 ### How did I start ?
 
