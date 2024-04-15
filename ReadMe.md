@@ -258,19 +258,19 @@ Follow the on-screen instructions to perform database operations such as creatin
 # Test cases
 
 1. Create user, login via user, create database, select database and show tables.
-    - We have to create a new user using signup option
+    - We have to create a new user using signup option  
     ![](./screenshots//Testcase-1/SignUp.png)
 
-    - To login through a new user, we have to choose option 1 and then enter the credentials with correct captcha.
+    - To login through a new user, we have to choose option 1 and then enter the credentials with correct captcha.   
     ![](./screenshots//Testcase-1/Login.png)
 
     - Create a database first. Before that, I have tried to select the database which shows the error that the database doesn’t exist.
     ![](./screenshots/Testcase-1/CreateDatabase.png)
 
-    - Select the database before performing queries.
+    - Select the database before performing queries.  
     ![](./screenshots/Testcase-1/SelectDatabase.png)
 
-    - View all tables and exit
+    - View all tables and exit.  
     ![](./screenshots/Testcase-1/ShowTables.png)
 
 2. Perform Query - create table, insert data and select values from the table.
@@ -281,10 +281,10 @@ Follow the on-screen instructions to perform database operations such as creatin
     select * from student
     exit
     ```
-    - Query Input
+    - Query Input  
     ![](./screenshots/Testcase-2/PerformQuery.png)
 
-    - Output Output
+    - Output Output  
     ![](./screenshots/Testcase-2/QueryOutput.png)
 
 3. Perform Transaction - insert and update data into student table. View all the contents of the table using the select command. Rollback the previous queries and then insert a new row. Show the current status of the table. Commit the transaction and show data again.
@@ -299,10 +299,10 @@ Follow the on-screen instructions to perform database operations such as creatin
     select * from student
     commit
     ```
-    - Query Input
+    - Query Input  
     ![](./screenshots/Testcase-3/PerformTransaction.png)
 
-    - Output Output
+    - Output Output  
     ![](./screenshots/Testcase-3/TransactionOutput.png)
 
 # References
